@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define pi 3.141592
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) { 
 
 // Área do circulo
 
