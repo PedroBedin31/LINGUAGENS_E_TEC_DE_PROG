@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//exercicios 7 e 8
+
 float calc_inss(float salario){	
 	if(salario <= 1412.00) return salario * 0.075;
 	else if(salario <= 2666.68) return salario * 0.09;
