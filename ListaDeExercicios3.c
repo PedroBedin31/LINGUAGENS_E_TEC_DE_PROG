@@ -49,7 +49,10 @@ int main() {
     return 0;
 }
 
-//exercicios 7 e 8
+
+// Exercicio 6, LAÇO DE REPETIÇÃO????
+
+// exercicios 7 e 8
 
 float calc_inss(float salario){	
 	if(salario <= 1412.00) return salario * 0.075;
