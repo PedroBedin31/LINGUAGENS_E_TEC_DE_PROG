@@ -4,7 +4,7 @@
 
 // EXERCICIO 1
 
-int main(int argc, char *argv[]) {
+int Ex_01(int argc, char *argv[]) {
 	
 	int numero[MAX], i, maior, aux, j;
 	
@@ -36,4 +36,25 @@ int main(int argc, char *argv[]) {
 		printf(" %d", numero[i]);
 	}
 	return 0;
+}
+
+// exercicio 2
+
+  int Ex_02(){	
+    double valor;
+	int expoente;
+	
+	expoente = 0;
+
+    printf("Digite um valor: ");
+    scanf("%lf", &valor);
+
+    while (valor >= 10){
+    	valor = valor / 10;
+    	expoente++;
+	}
+	
+	printf("Valor em notação cientifica: %.2lf x 10^%d", valor, expoente);
+    
+    return 0;
 }
